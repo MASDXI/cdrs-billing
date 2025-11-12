@@ -1,8 +1,5 @@
 # cdr-billing-smart-contracts
 
-> [!Important]
-> This repository will no longer maintain suggest to move to [kiwarilabs/abtrasct-contracts](https://github.com/Kiwari-Labs/kiwari-labs-abstract-contracts)
-
 This repository provides Call Detail Records (CDRs) billing using smart contracts written in Solidity. It enables telecom operators and service providers to manage billing processes transparently and efficiently on a blockchain network, ensuring accurate, immutable, and automated.
 
 ## Prerequisite
