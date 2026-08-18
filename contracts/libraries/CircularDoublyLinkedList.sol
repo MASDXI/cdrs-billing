@@ -1,6 +1,7 @@
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0 <0.9.0;
 
+// @TODO change type to bytes16.
 library CircularDoublyLinkedList {
     struct List {
         uint256 length;

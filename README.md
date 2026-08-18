@@ -1,6 +1,6 @@
-# cdr-billing-smart-contracts
+# cdr-transaction-management-contracts
 
-This repository provides Call Detail Records (CDRs) billing using smart contracts written in Solidity. It enables telecom operators and service providers to manage billing processes transparently and efficiently on a blockchain network, ensuring accurate, immutable, and automated.
+This repository provides Call Detail Records (CDRs) Transaction Management using smart contracts written in `solidity`. It enables telecom operators and service providers to manage billing processes transparently and efficiently on a blockchain network, ensuring accurate, immutable, and automated.
 
 ## Prerequisite
 
@@ -9,8 +9,8 @@ This repository provides Call Detail Records (CDRs) billing using smart contract
 - git [Download](https://git-scm.com/)
 
 ```shell
-git clone https://github.com/MASDXI/cdr-billing-smart-contracts.git
-cd cdr-billing-smart-contracts
+git clone https://github.com/MASDXI/cdr-transaction-management-contracts.git
+cd cdr-transaction-management-contracts
 ```
 
 ## Installing
@@ -40,13 +40,6 @@ yarn test
 ## Rationale
 
 - The design approach not tied exclusively to `solidity` or `evm-based` but can be applied across various Distributed Ledger Technologies (DLTs) or blockchain frameworks that support turing-complete smart contracts.
-- Avoid `WRITE` or `UPDATE` operation with sliding window algorithm for billing efficiently over a specified time period. This method helps in maintaining a consistent billing cycle by leveraging a sliding window mechanism that automatically accounts for time-based without needing constant manual updates.
-
-## Security Considerations
-
-- AS-IS, when change the network `blocktime` total billing cycle will be recalculated.
-
----
 
 ## License
 
